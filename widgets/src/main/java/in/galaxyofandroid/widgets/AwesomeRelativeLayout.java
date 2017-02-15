@@ -11,7 +11,7 @@ import android.widget.RelativeLayout;
  * Created by Md Farhan Raja on 2/14/2017.
  */
 
-public class RelativeShapeLayout extends RelativeLayout
+public class AwesomeRelativeLayout extends RelativeLayout
 {
     private TypedArray array;
     private int color;
@@ -21,24 +21,24 @@ public class RelativeShapeLayout extends RelativeLayout
     private boolean borderEnable;
     private GradientDrawable drawable;
 
-    public RelativeShapeLayout(Context context)
+    public AwesomeRelativeLayout(Context context)
     {
         super(context);
     }
 
-    public RelativeShapeLayout(Context context, AttributeSet attrs)
+    public AwesomeRelativeLayout(Context context, AttributeSet attrs)
     {
         super(context, attrs);
         init(context,attrs);
     }
 
-    public RelativeShapeLayout(Context context, AttributeSet attrs, int defStyleAttr)
+    public AwesomeRelativeLayout(Context context, AttributeSet attrs, int defStyleAttr)
     {
         super(context, attrs, defStyleAttr);
         init(context,attrs);
     }
 
-    public RelativeShapeLayout(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes)
+    public AwesomeRelativeLayout(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes)
     {
         super(context, attrs, defStyleAttr, defStyleRes);
         init(context,attrs);
@@ -46,13 +46,13 @@ public class RelativeShapeLayout extends RelativeLayout
 
     private void init(Context context,AttributeSet attributeSet)
     {
-        array=context.obtainStyledAttributes(attributeSet,R.styleable.RelativeShapeLayout);
-        color=array.getColor(R.styleable.RelativeShapeLayout_sl_backgroundColor,getResources().getColor(R.color.colorDefault));
-        cornerRadius=array.getInt(R.styleable.RelativeShapeLayout_sl_cornerRadius,0);
+        array=context.obtainStyledAttributes(attributeSet,R.styleable.AwesomeRelativeLayout);
+        color=array.getColor(R.styleable.AwesomeRelativeLayout_arl_backgroundColor,getResources().getColor(R.color.colorDefault));
+        cornerRadius=array.getInt(R.styleable.AwesomeRelativeLayout_arl_cornerRadius,0);
 
-        borderColor=array.getColor(R.styleable.RelativeShapeLayout_sl_borderColor,getResources().getColor(R.color.bodColor));
-        borderWidth=array.getInt(R.styleable.RelativeShapeLayout_sl_borderWidth,4);
-        borderEnable=array.getBoolean(R.styleable.RelativeShapeLayout_sl_borderEnable,false);
+        borderColor=array.getColor(R.styleable.AwesomeRelativeLayout_arl_borderColor,getResources().getColor(R.color.bodColor));
+        borderWidth=array.getInt(R.styleable.AwesomeRelativeLayout_arl_borderWidth,4);
+        borderEnable=array.getBoolean(R.styleable.AwesomeRelativeLayout_arl_borderEnable,false);
 
         drawable=new GradientDrawable();
         drawable.setCornerRadius(cornerRadius);

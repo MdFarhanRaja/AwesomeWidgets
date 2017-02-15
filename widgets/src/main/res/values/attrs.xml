@@ -18,12 +18,12 @@
         <attr name="aet_fontPath" format="string"/>
     </declare-styleable>
 
-    <declare-styleable name="RelativeShapeLayout">
-        <attr name="sl_backgroundColor" format="color"/>
-        <attr name="sl_cornerRadius" format="integer"/>
-        <attr name="sl_borderColor" format="color"/>
-        <attr name="sl_borderWidth" format="integer"/>
-        <attr name="sl_borderEnable" format="boolean"/>
+    <declare-styleable name="AwesomeRelativeLayout">
+        <attr name="arl_backgroundColor" format="color"/>
+        <attr name="arl_cornerRadius" format="integer"/>
+        <attr name="arl_borderColor" format="color"/>
+        <attr name="arl_borderWidth" format="integer"/>
+        <attr name="arl_borderEnable" format="boolean"/>
     </declare-styleable>
 
 </resources>
