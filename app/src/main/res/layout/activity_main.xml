@@ -11,14 +11,26 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical">
 
-    <in.galaxyofandroid.widgets.AwesomeTextView
-        android:padding="10dp"
+    <in.galaxyofandroid.widgets.AwesomeRippleView
+        app:arv_centered="true"
+        app:arv_type="doubleRipple"
+        app:arv_color="#000000"
+        app:arv_zoom="true"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Md Farhan Raja"
-        app:atv_borderEnable="true"
-        app:atv_borderColor="@color/colorAccent"
-        app:atv_borderWidth="1"/>
+        android:layout_height="wrap_content">
+
+        <in.galaxyofandroid.widgets.AwesomeTextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Md Farhan Raja"
+            app:atv_borderEnable="true"
+            app:atv_borderColor="@color/colorAccent"
+            app:atv_borderWidth="1"/>
+
+    </in.galaxyofandroid.widgets.AwesomeRippleView>
+
+
 
     <in.galaxyofandroid.widgets.AwesomeRelativeLayout
         app:arl_backgroundColor="@color/colorAccent"

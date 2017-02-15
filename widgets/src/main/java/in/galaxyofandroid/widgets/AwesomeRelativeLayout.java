@@ -62,7 +62,6 @@ public class AwesomeRelativeLayout extends RelativeLayout
             drawable.setStroke(borderWidth,borderColor);
         }
         setBackground(drawable);
-
     }
 
     public void setBackgroundColor(String colorcode)
