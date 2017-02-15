@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <declare-styleable name="AwesomeTextView">
+       <attr name="atv_backgroundColor" format="color"/>
+       <attr name="atv_cornerRadius" format="integer"/>
+       <attr name="atv_borderColor" format="color"/>
+       <attr name="atv_borderWidth" format="integer"/>
+       <attr name="atv_borderEnable" format="boolean"/>
+       <attr name="atv_fontPath" format="string"/>
+   </declare-styleable>
+
+    <declare-styleable name="AwesomeEditText">
+        <attr name="aet_backgroundColor" format="color"/>
+        <attr name="aet_cornerRadius" format="integer"/>
+        <attr name="aet_borderColor" format="color"/>
+        <attr name="aet_borderWidth" format="integer"/>
+        <attr name="aet_borderEnable" format="boolean"/>
+        <attr name="aet_fontPath" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="RelativeShapeLayout">
+        <attr name="sl_backgroundColor" format="color"/>
+        <attr name="sl_cornerRadius" format="integer"/>
+        <attr name="sl_borderColor" format="color"/>
+        <attr name="sl_borderWidth" format="integer"/>
+        <attr name="sl_borderEnable" format="boolean"/>
+    </declare-styleable>
+
+</resources>
