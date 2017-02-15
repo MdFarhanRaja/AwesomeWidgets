@@ -24,6 +24,7 @@
         app:arl_backgroundColor="@color/colorAccent"
         app:arl_cornerRadius="200"
         android:layout_width="80dp"
+        app:arl_borderEnable="true"
         android:layout_height="80dp">
 
     </in.galaxyofandroid.widgets.AwesomeRelativeLayout>
