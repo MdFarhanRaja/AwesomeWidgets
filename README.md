@@ -27,7 +27,7 @@ For AwesomeTextView
             app:atv_cornerRadius="40"
             app:atv_backgroundColor="#cacaca"
             app:atv_borderWidth="5"
-            app:atv_fontPath="roboto.ttf" //Your External Font Path
+            app:atv_fontPath="roboto.ttf" or "fonts/roboto.ttf" //Your External Font Path from assets
             android:gravity="center"
             android:text="Md Farhan Raja"
             android:layout_width="wrap_content"
