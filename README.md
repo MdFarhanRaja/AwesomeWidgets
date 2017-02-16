@@ -17,6 +17,8 @@ Step 2. Add the dependency
 	}
 
 For AwesomeTextView
+![tv](https://cloud.githubusercontent.com/assets/18304656/23031248/4c9b1058-f496-11e6-9ed6-002d6acbd621.PNG)
+
 
 	<in.galaxyofandroid.widgets.AwesomeTextView
             android:padding="10dp"
