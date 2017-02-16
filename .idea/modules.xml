@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AwesomeWidgets.iml" filepath="$PROJECT_DIR$/AwesomeWidgets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ColorfullTabs.iml" filepath="$PROJECT_DIR$/ColorfullTabs.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/widgets/widgets.iml" filepath="$PROJECT_DIR$/widgets/widgets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/awesometablayout/awesometablayout.iml" filepath="$PROJECT_DIR$/awesometablayout/awesometablayout.iml" />
     </modules>
   </component>
 </project>

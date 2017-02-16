@@ -5,40 +5,31 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical">
 
-    <in.galaxyofandroid.widgets.AwesomeRippleView
-        app:arv_centered="true"
-        app:arv_type="doubleRipple"
-        app:arv_color="#000000"
-        app:arv_zoom="true"
-        android:layout_width="wrap_content"
+    <TextView
+        android:elevation="10dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimary"
+        android:text="Colorfull TabLayout"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <in.galaxyofandroid.awesometablayout.AwesomeTabBar
+        android:id="@+id/tabBar"
+        app:atb_indicatorHeight="2dp"
+        app:atb_indicatorColor="#bebebe"
+        app:atb_imageHeight="30dp"
+        app:atb_imageWidth="30dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
+    </in.galaxyofandroid.awesometablayout.AwesomeTabBar>
 
-        <in.galaxyofandroid.widgets.AwesomeTextView
-            android:padding="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Md Farhan Raja"
-            app:atv_borderEnable="true"
-            app:atv_borderColor="@color/colorAccent"
-            app:atv_borderWidth="1"/>
-
-    </in.galaxyofandroid.widgets.AwesomeRippleView>
-
-
-
-    <in.galaxyofandroid.widgets.AwesomeRelativeLayout
-        app:arl_backgroundColor="@color/colorAccent"
-        app:arl_cornerRadius="200"
-        android:layout_width="80dp"
-        app:arl_borderEnable="true"
-        android:layout_height="80dp">
-
-    </in.galaxyofandroid.widgets.AwesomeRelativeLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
 
 </LinearLayout>
