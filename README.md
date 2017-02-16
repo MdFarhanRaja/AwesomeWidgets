@@ -34,6 +34,8 @@ For AwesomeTextView
             android:layout_height="wrap_content" />
 	    
 For AwesomeEditText
+![et](https://cloud.githubusercontent.com/assets/18304656/23031291/75359c40-f496-11e6-972c-5e6c151fc153.PNG)
+
 
     <in.galaxyofandroid.widgets.AwesomeEditText
         android:padding="10dp"
@@ -49,6 +51,8 @@ For AwesomeEditText
         android:layout_height="40dp" />
 	
 For AwesomeRelativeLayout
+![rl](https://cloud.githubusercontent.com/assets/18304656/23031322/95e01eb6-f496-11e6-8b00-d4fc6e608fc5.PNG)
+
 
     <in.galaxyofandroid.widgets.AwesomeRelativeLayout
         android:layout_marginTop="20dp"
